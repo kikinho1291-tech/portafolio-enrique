@@ -1,0 +1,249 @@
+@charset "utf-8";
+/* CSS Document */
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+body{
+    background-color:#0000;
+    margin:             0 ;             
+    font-family: "Montserrat", sans-serif;
+	color: #FFFFFF;
+}
+
+header{
+    background-color: #000000;
+}
+footer{
+    background-color: #000000;
+	color: #FFFFFF;
+}
+
+.lista-1{
+	list-style-type: none;
+	
+}
+
+.lista-2{
+	list-style-type: none;
+}
+
+a{
+	text-decoration: none;
+	
+}
+
+.redes-footer{ 
+
+padding-top: 3%;
+
+
+}
+
+.menu{
+	padding-top: 8%;
+}
+
+
+.cover-inicio{
+	background-image: url("../img/Cover hero.png");
+	background-size: cover;
+	background-position: top center;
+	background-color:rgba(0,0,0,0.75);
+	background-blend-mode: multiply;
+	padding: 18% 0;
+	color: #FFFFFF;
+}
+
+.cover-inicio h1{
+	font-size: 72px;
+    font-weight: 700;
+}
+
+.cover-inicio p{ 
+	font-size: 18px;
+	letter-spacing: 3px;
+	padding: 1%;
+}
+
+.img-acerca{
+	background-image:url( "../img/IMG_20230520_134354_313.jpg");
+	background-size: cover;
+	background-position: top center;
+	padding: 18% 0;
+}
+
+.ac-text{
+	padding: 8% 0;
+}
+
+.parrafo_ac{
+	color: #000000;
+	text-align: justify;
+	padding: 3% 0;
+}
+
+.acerca-de-mi{
+	color: #000000;
+	text-align: justify;
+	font-weight: 600;
+	
+}
+
+.servicios{
+	background-image: url("../img/IMG_20200330_140336.jpg");
+	background-size: cover;
+	background-position: top center;
+	background-color:rgba(0,0,0,0.75);
+	background-blend-mode: multiply;
+	padding: 10% 0;
+	
+}
+
+.servicios h1{ 
+   font-size: 72px;
+   font-weight: 700;
+	
+}
+
+.img-prodm{ 
+  background-image: url("../img/20250910_111128.jpg");
+  background-size: cover;
+  background-position: center;
+  padding: 10% 0;
+}
+
+.bg-pm{
+   background-color: #B0F634;	
+}
+
+.prodm-body-1{
+	color: #000000;
+	padding: 25% 0;
+}
+
+.prodm-body-1 h2{ 
+	font-weight: 700;
+}
+
+.prodm-body-1 p{
+	text-align: justify;
+}
+
+.img-inst{
+	background-image: url("../img/Sesh 6 Video 1 - frame at 0m26s.jpg");
+	background-size: cover;
+  	background-position: center;
+	background-color:rgba(0,0,0,0.50);
+	background-blend-mode: multiply;
+    padding: 18% 0;
+}
+
+.bg-inst{
+   background-color: #B0F634;	
+}
+
+.inst-body-2{ 
+	color: #000000;
+	background-color: #B0F634;
+	padding: 25% 0;
+}
+
+.inst-body-2 p{
+	text-align: justify;
+}
+
+.inst-body-2 h2{ 
+	font-weight: 700;
+}
+
+.img-loc{
+	background-image: url("../img/male-musician-in-recording-studio-singing-into-mi-2024-10-20-00-04-23-utc.jpg");
+	background-size: cover;
+  	background-position: center;
+	background-color:rgba(0,0,0,0.50);
+	background-blend-mode: multiply;
+    padding: 18% 0;
+}
+
+.bg-loc{
+   background-color: #B0F634;	
+}
+
+.loc-body-1{ 
+	color: #000000;
+	background-color: #B0F634;
+	padding: 25% 0;
+}
+
+.loc-body-1 h2{ 
+    font-weight: 700;
+}
+
+.loc-body-1 p{ 
+	text-align: justify;
+}
+
+.portafolio-cover{ 
+	background-size: cover;
+	background-color:#000000;
+	padding: 10% 0;
+
+}
+
+.portafolio-cover h1{
+	font-weight: 600;
+}
+
+.img-suite{ 
+	background-image: url("../img/IMG-20180418-WA0022.jpg");
+	background-size: cover;
+	background-position: center;
+	background-color:rgba(68,13,86,0.75);
+	background-blend-mode: multiply;
+	padding: 18% 0;
+}
+
+.trabajos h2{ 
+	font-size: 60px;  
+	font-weight: 600;
+}
+
+.img-tqr{ 
+	background-image: url("../img/TOQUIN EN LA REQUINTA EP 1 FINAL - frame at 6m27s.jpg");
+	background-size: cover;
+	background-position: center;
+	background-color:rgba(124,0,2,0.50);
+	background-blend-mode: multiply;
+	padding: 18% 0;
+}
+
+.img-knj{ 
+    background-image: url("../img/KNJ.PNG");
+	background-size: cover;
+	background-position: center;
+	background-color:rgba(26,49,124,0.50);
+	background-blend-mode: multiply;
+	padding: 18% 0;
+}
+
+.img-cq{ 
+	background-image: url("../img/cq.png");
+	background-size: cover;
+	background-position: center;
+	background-color:rgba(18,99,14,0.75);
+	background-blend-mode: multiply;
+	padding: 18% 0;
+}
+
+.img-loc{
+	background-image:url("../img/loc.png");
+	background-size: cover;
+	background-position: center;
+	background-color:rgba(179,64,19,0.75);
+	background-blend-mode: multiply;
+	padding: 18% 0;	
+}
+
+.contact{ 
+background-color: #000000;
+}
